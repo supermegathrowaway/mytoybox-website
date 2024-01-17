@@ -1,5 +1,5 @@
 body {
-	background: url('/img/stars.gif') repeat;
+	background: url('img/stars.gif') repeat;
 	overflow:hidden;
 	text-align: center;
 	color:white;
@@ -43,7 +43,7 @@ footer{
 }
 
 #moon {
-	background: transparent url('/img/moon.png') 0 0 no-repeat;
+	background: transparent url('img/moon.png') 0 0 no-repeat;
 	height: 100px;
 	width: 100px;
 	position: absolute;
@@ -65,7 +65,7 @@ footer{
 }
 
 #cloud1 {
-	background: transparent url('/img/cloud1.png') repeat-x;
+	background: transparent url('img/cloud1.png') repeat-x;
 	height: 128px;
 	width: 100%;
 	position: fixed;
@@ -77,7 +77,7 @@ footer{
 }
 
 #cloud2 {
-	background: transparent url('/img/cloud2.png') repeat-x;
+	background: transparent url('img/cloud2.png') repeat-x;
 	height: 200px;
 	width: 100%;
 	position: fixed;
@@ -89,7 +89,7 @@ footer{
 }
 
 #cloud3 {
-	background: transparent url('/img/cloud3.png') repeat-x;
+	background: transparent url('img/cloud3.png') repeat-x;
 	height: 257px;
 	width: 100%;
 	position: fixed;
@@ -101,7 +101,7 @@ footer{
 }
 
 #cloud4 {
-	background: transparent url('/img/cloud4.png') repeat-x;
+	background: transparent url('img/cloud4.png') repeat-x;
 	height: 328px;
 	width: 100%;
 	position: fixed;
