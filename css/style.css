@@ -1,5 +1,5 @@
 body {
-	background: url('img/stars.gif') repeat;
+	background: url('./img/stars.gif') repeat;
 	overflow:hidden;
 	text-align: center;
 	color:white;
