@@ -1,0 +1,128 @@
+body {
+	background: url('/img/stars.gif') repeat;
+	overflow:hidden;
+	text-align: center;
+	color:white;
+	font-family: 'CaveStoryRegular'; 
+	font-size: 1.5em;
+}
+
+header{
+  text-align: center;
+}
+aside{
+  text-align: center;
+}
+
+.navbar ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+}
+.navbar a:hover{
+  background-color: hsla(0, 100%, 50%, 0.125)
+}
+
+.navbar li{
+  text-align: center;
+  display: inline-block;
+  text-shadow: 2px 2px 2px black;
+}
+footer{
+  text-decoration: none; 
+  clear: both;
+  position: absolute; bottom: 0; width: 100%;
+}
+
+#moon {
+	background: transparent url('/img/moon.png') 0 0 no-repeat;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 10%;
+	right: 10%;
+	clear: both;
+	z-index: -6;
+}
+
+#balrog {
+	background: transparent 0 0 no-repeat;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	clear: both;
+	z-index: 1;
+}
+
+#cloud1 {
+	background: transparent url('/img/cloud1.png') repeat-x;
+	height: 128px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	clear: both;
+	z-index: -2;
+	animation: bgScroll 30s linear infinite;
+}
+
+#cloud2 {
+	background: transparent url('/img/cloud2.png') repeat-x;
+	height: 200px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	clear: both;
+	z-index: -3;
+	animation: bgScroll 60s linear infinite;
+}
+
+#cloud3 {
+	background: transparent url('/img/cloud3.png') repeat-x;
+	height: 257px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	clear: both;
+	z-index: -4;
+	animation: bgScroll 80s linear infinite;
+}
+
+#cloud4 {
+	background: transparent url('/img/cloud4.png') repeat-x;
+	height: 328px;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	clear: both;
+	z-index: -5;
+	animation: bgScroll 200s linear infinite;
+}
+
+@media screen and (max-width:600px){
+  aside, section, article{
+      width: 100%
+  }
+}
+
+@keyframes bgScroll {
+	0% {
+	  background-position : 0px 0px;
+	}
+	100% {
+	  background-position : -500% 0px;
+	}
+  }
