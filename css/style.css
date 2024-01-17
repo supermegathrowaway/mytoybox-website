@@ -65,7 +65,7 @@ footer{
 }
 
 #cloud1 {
-	background: transparent url('img/cloud1.png') repeat-x;
+	background: transparent url("img/cloud1.png") repeat-x;
 	height: 128px;
 	width: 100%;
 	position: fixed;
